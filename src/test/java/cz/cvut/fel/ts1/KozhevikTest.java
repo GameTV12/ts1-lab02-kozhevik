@@ -28,7 +28,7 @@ public class KozhevikTest {
     }
 
     @Test
-    public void factorial_nIsMinus1_returns1(){
+    public void factorial_nIs0_returns1(){
         Kozhevik kozhevik = new Kozhevik();
         int n = 0;
         long expected = 1;
